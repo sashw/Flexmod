@@ -2,6 +2,7 @@
 
 A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https://github.com/alexandrevicenzi/Flex) by [Alexandre Vicenzi](https://github.com/alexandrevicenzi).
 
+
 ## Features
 
 - Mobile First
@@ -25,14 +26,14 @@ A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https:
 
 [Go to Wiki](https://github.com/alexandrevicenzi/Flex/wiki)
 
-## Live example
+## Example
 
-You can see how things looks like [here](https://blog.alexandrevicenzi.com/flex-pelican-theme.html).
-Or you can take a look at [Flex users](https://github.com/alexandrevicenzi/Flex/wiki/Flex-users).
+You can see how the original theme looks like [here](https://blog.alexandrevicenzi.com/flex-pelican-theme.html).
 
-I'm using Flex in my [personal blog](http://blog.alexandrevicenzi.com/).
-
+A preview of this fork is shown in the following screenshot.
 ![Screenshot](https://github.com/sashw/Flexmod/blob/master/screenshot.png)
+
+The Pygments theme used is [Dark Flare](https://github.com/sashw/pygments-dark-flare).
 
 ## Changelog
 
