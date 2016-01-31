@@ -1,10 +1,10 @@
 @orange: #D9411E;
 @light-orange: #FF5A09;
 @white:  #ffffff;
-@grey: #333333;
-@light-grey:  #eeeeee;
+@grey: #252525;
+@light-grey:  #f5f5f5;
 @med-grey:  #999999;
-@dark-grey: #242121;
+@dark-grey: #232020;
 @sans: 'Source Sans Pro', 'Verdana', sans-serif;
 @mono: 'Source Code Pro', 'Consolas', monospace;
 
@@ -50,7 +50,7 @@ h6 {
 body {
   margin: 0;
   padding: 0;
-  background-color: @white;
+  background-color: @light-grey;
   color: @dark-grey;
   font-family: @sans;
   font-size: 1.02em;
@@ -67,8 +67,8 @@ a:hover {
 }
 
 hr {
-  color: @light-grey;
-  background-color: @light-grey;
+  color: @med-grey;
+  background-color: @med-grey;
   height: 1px;
   border: none;
   margin-top: 40px;
@@ -81,11 +81,11 @@ img {
 
 aside {
   background-color: @grey;
-  color: @white;
+  color: @light-grey;
   text-align: center;
 
   a {
-    color: @white;
+    color: @light-grey;
   }
 
   a:hover {
@@ -285,6 +285,17 @@ a.btn {
 
 a.btn:hover {
   background-color: @light-orange;
+}
+
+a.btn-cont-read {
+  background-color: @light-grey;
+  color: @orange;
+  border: 1px solid;
+}
+a.btn-cont-read:hover {
+  background-color: @orange;
+  color: @white;
+  border: none;
 }
 
 .center {
