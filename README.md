@@ -1,6 +1,6 @@
-# Flex [![Build Status](https://travis-ci.org/alexandrevicenzi/Flex.svg?branch=master)](https://travis-ci.org/alexandrevicenzi/Flex)
+# Flexmod
 
-A minimalist [Pelican](http://blog.getpelican.com/) theme.
+A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https://github.com/alexandrevicenzi/Flex) by [Alexandre Vicenzi](https://github.com/alexandrevicenzi).
 
 ## Features
 
@@ -32,17 +32,11 @@ Or you can take a look at [Flex users](https://github.com/alexandrevicenzi/Flex/
 
 I'm using Flex in my [personal blog](http://blog.alexandrevicenzi.com/).
 
-![Screenshot](https://github.com/alexandrevicenzi/Flex/blob/master/screenshot.png)
+![Screenshot](https://github.com/sashw/Flexmod/blob/master/screenshot.png)
 
 ## Changelog
 
 [Click here](./CHANGELOG.md)
-
-## Donate
-
-Did you liked? Buy me a coffee.
-
-[![Gratipay](https://img.shields.io/gratipay/JSFiddle.svg?style=flat-square)](https://gratipay.com/~alexandrevicenzi/)
 
 ## License
 
