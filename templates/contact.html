@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block meta %}
+<meta name="author" content="{{ page.author.name }}" />
+<meta name="description" content="{{ page.summary|striptags|e }}" />
+<meta name="keywords" content="contact">
+{% endblock %}
+
+{% block title %} &ndash; {{ page.title|striptags }}{% endblock %}
+
+{% block content %}
+<article>
+  <header>
+    {% if page.header %}
+    <h1 id="{{ page.slug }}">{{ page.header }}</h1>
+    {% else %}
+    <h1 id="{{ page.slug }}">{{ page.title }}</h1>
+    {% endif %}
+  </header>
+  <div>
+    {{ page.content }}
+  </div>
+  {% if page.email %}
+  <a href="mailto:{{ page.email }}"><i class="fa fa-envelope"></i> Email</a>
+  {% endif %}
+</article>
+{% endblock %}
+
