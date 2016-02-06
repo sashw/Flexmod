@@ -35,10 +35,6 @@ A preview of this fork is shown in the following screenshot.
 
 The Pygments theme used is [Dark Flare](https://github.com/sashw/pygments-dark-flare).
 
-## Changelog
-
-[Click here](./CHANGELOG.md)
-
 ## License
 
 MIT
