@@ -1,1 +1,6 @@
-<p>{% trans %}Built using{% endtrans %} <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/sashw/Flexmod" target="_blank">Flexmod</a> based on <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme</p>
+{% autoescape false %}
+<p>{{ _('Built using %(pelican)s - %(flexmod)s based on %(flex)s theme',
+  pelican='<a href="http://getpelican.com" target="_blank">Pelican</a>',
+  flexmod='<a href="https://github.com/sashw/Flexmod" target="_blank">Flexmod</a>',
+  flex='<a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a>'
+{% endautoescape %}
