@@ -11,6 +11,10 @@ A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https:
 - SEO Best Practices
 - Open Graph
 - Rich Snippets (JSON-LD)
+- Related Posts (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/related_posts))
+- Minute read like [Medium](https://medium.com/) (via [plugin](https://github.com/getpelican/pelican-plugins/tree/master/post_stats)) (coming in 2.0)
+- [Multiple Code Highlight Styles](https://github.com/alexandrevicenzi/Flex/wiki/Code-Highlight)
+- [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Multi-language-support) (draft/coming in 2.0)
 
 ## Integrations
 
@@ -22,7 +26,25 @@ A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https:
 - [Piwik](http://piwik.org/)
 - [StatusCake](https://www.statuscake.com/)
 
-## Need Docs?
+## Install
+
+The recommend way to install is over [pelican-themes](https://github.com/getpelican/pelican-themes).
+
+The `master` branch is the development branch. If you're happy with fresh new things and maybe sometimes (~most of time~) broken things you can clone the `master`, but I would recommend to you to clone a tag branch.
+
+## Migrate from 1.x to 2.x
+
+Release 2.0 will include [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Multi-language-support). In order to use Flex you need to configure your `pelicanconf.py` to support i18n. See [Multi language support](https://github.com/alexandrevicenzi/Flex/wiki/Multi-language-support) for examples.
+
+## Docs
+=======
+## Install
+
+The recommend way to install is over [pelican-themes](https://github.com/getpelican/pelican-themes).
+
+The `master` branch is the development branch. If you're happy with fresh new things and maybe sometimes (~most of time~) broken things you can clone the `master`, but I would recommend to you to clone a tag branch.
+
+## Docs
 
 [Go to Wiki](https://github.com/alexandrevicenzi/Flex/wiki)
 
