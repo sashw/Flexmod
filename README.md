@@ -33,7 +33,7 @@ A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https:
 
 Translate this theme to new languages at [Transifex](https://www.transifex.com/alexandrevicenzi/flex-pelican/).
 
-![Translations](https://www.transifex.com/projects/p/flex-pelican/resource/messagespot/chart/image_png)
+![Translations](https://github.com/alexandrevicenzi/Flex/blob/master/translation_chart.png)
 
 Read more about [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Translation-support).
 
