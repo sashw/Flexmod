@@ -2,7 +2,6 @@
 
 A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https://github.com/alexandrevicenzi/Flex) by [Alexandre Vicenzi](https://github.com/alexandrevicenzi).
 
-
 ## Features
 
 - Mobile First
@@ -26,27 +25,17 @@ A minimalist [Pelican](http://blog.getpelican.com/) theme based on [Flex](https:
 - [Piwik](http://piwik.org/)
 - [StatusCake](https://www.statuscake.com/)
 
-## Install
-
-The recommend way to install is over [pelican-themes](https://github.com/getpelican/pelican-themes).
-
-The `master` branch is the development branch. If you're happy with fresh new things and maybe sometimes (~most of time~) broken things you can clone the `master`, but I would recommend to you to clone a tag branch.
-
-## Migrate from 1.x to 2.x
-
-Release 2.0 will include [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Multi-language-support). In order to use Flex you need to configure your `pelicanconf.py` to support i18n. See [Multi language support](https://github.com/alexandrevicenzi/Flex/wiki/Multi-language-support) for examples.
-
-## Docs
-=======
-## Install
-
-The recommend way to install is over [pelican-themes](https://github.com/getpelican/pelican-themes).
-
-The `master` branch is the development branch. If you're happy with fresh new things and maybe sometimes (~most of time~) broken things you can clone the `master`, but I would recommend to you to clone a tag branch.
-
 ## Docs
 
 [Go to Wiki](https://github.com/alexandrevicenzi/Flex/wiki)
+
+## Translate
+
+Translate this theme to new languages at [Transifex](https://www.transifex.com/alexandrevicenzi/flex-pelican/).
+
+![Translations](https://www.transifex.com/projects/p/flex-pelican/resource/messagespot/chart/image_png)
+
+Read more about [Translation Support](https://github.com/alexandrevicenzi/Flex/wiki/Translation-support).
 
 ## Example
 
