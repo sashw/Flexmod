@@ -461,13 +461,17 @@ ul.social {
 
   main {
     width: 75%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 25%;
-    overflow-x: hidden;
-    overflow-y: hidden;
 
     article {
+
+      &.single {
+        min-height: 80%;
+      }
+
       ul.list {
         li {
           padding: 2px;
