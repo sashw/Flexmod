@@ -28,11 +28,16 @@ msgstr "Archives"
 msgid "Posted on %(when)s in %(category)s"
 msgstr "Posté le %(when)s dans %(category)s"
 
-#: templates/article.html:41
+#: templates/article.html:22
+#, python-format
+msgid "Last modified on %(when)s"
+msgstr ""
+
+#: templates/article.html:46
 msgid "Like this article? Share it with your friends!"
 msgstr "Vous aimez cet article ? Partagez le avec vos amis !"
 
-#: templates/article.html:49
+#: templates/article.html:54
 msgid "You might enjoy"
 msgstr "Vous pourriez aimer"
 
@@ -89,12 +94,8 @@ msgstr "Veuillez activer le JavaScript pour voir les commentaires."
 
 #: templates/partial/flex.html:1
 #, python-format
-msgid ""
-"Powered by %(pelican_url)s - %(flex_url)s theme by "
-"%(alexandrevicenzi_url)s"
+msgid "Powered by %(pelican_url)s - %(flexmod_url)s based on %(flex_url)s theme"
 msgstr ""
-"Propulsé par %(pelican_url)s - %(flex_url)s thème par "
-"%(alexandrevicenzi_url)s"
 
 #: templates/partial/pagination.html:5
 msgid "Older Posts"
@@ -103,4 +104,11 @@ msgstr "Anciens Posts"
 #: templates/partial/pagination.html:10
 msgid "Newer Posts"
 msgstr "Nouveaux Posts"
+
+#~ msgid ""
+#~ "Powered by %(pelican_url)s - %(flex_url)s "
+#~ "theme by %(alexandrevicenzi_url)s"
+#~ msgstr ""
+#~ "Propulsé par %(pelican_url)s - %(flex_url)s"
+#~ " thème par %(alexandrevicenzi_url)s"
 

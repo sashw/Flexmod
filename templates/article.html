@@ -18,7 +18,9 @@
            when=article.locale_date,
            category='<a href="%s/%s">%s</a>'|format(SITEURL, article.category.url, article.category)|safe) }}
       {% if article.modified %}
-      <br />Last modified on {{ article.modified|strftime('%d %B %Y') }}
+      <br />
+      {{ _('Last modified on %(when)s',
+           when=article.modified|strftime('%d %B %Y')) }}
       {% endif %}
 
       {% if 'post_stats' in PLUGINS %}
