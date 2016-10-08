@@ -13,7 +13,12 @@
 <article>
   <header>
     <h1 id="{{ article.slug }}">{{ article.title }}</h1>
-    <p>Posted on {{ article.locale_date }} in <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a></p>
+    <p>
+      Posted on {{ article.locale_date }} in <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+      {% if article.modified %}
+      <br />Last modified on {{ article.modified|strftime('%d %B %Y') }}
+      {% endif %}
+    </p>
   </header>
   <div>
     {{ article.content }}
